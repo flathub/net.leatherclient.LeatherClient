@@ -6,7 +6,8 @@ command: leather-client
 finish-args:
   - --share=ipc
   - --share=network
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
   - --device=dri
   - --filesystem=xdg-data/LeatherClient:create
@@ -25,11 +26,11 @@ modules:
       - install -Dm644 net.leatherclient.LeatherClient.metainfo.xml /app/share/metainfo/net.leatherclient.LeatherClient.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/Leather-Client/version/releases/download/v1.1.1/leather-client-flatpak-1.1.1-x86_64.tar.gz
-        sha256: 98bde85111b84c44fe05433b01679e76f15ff5149fc20d9605cc7e29f8b2897d
+        url: https://github.com/Leather-Client/version/releases/download/v1.1.2/leather-client-flatpak-1.1.2-x86_64.tar.gz
+        sha256: 34101d61d7895de9ae28ec2dd03fa946aba08bcf6a900febf6a26733b2a81f6b
       - type: file
-        url: https://github.com/Leather-Client/version/releases/download/v1.1.1/net.leatherclient.LeatherClient.desktop
+        url: https://github.com/Leather-Client/version/releases/download/v1.1.2/net.leatherclient.LeatherClient.desktop
         sha256: f0fe0b063cee3c0604747d5d731357f6cc2e990487dded56a306adf8b10bd3bc
       - type: file
-        url: https://github.com/Leather-Client/version/releases/download/v1.1.1/net.leatherclient.LeatherClient.metainfo.xml
-        sha256: 97a575d6814e3941a2559687fe6dbe7268afe4b8016f1f89bb06cdb88024f489
+        url: https://github.com/Leather-Client/version/releases/download/v1.1.2/net.leatherclient.LeatherClient.metainfo.xml
+        sha256: 251e9ebf5b2b7374dbce873293a2d6c78f6b935d1dfd05797434646e07d12989
