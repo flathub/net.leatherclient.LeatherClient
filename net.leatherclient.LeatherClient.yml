@@ -13,6 +13,7 @@ finish-args:
   - --filesystem=xdg-data/LeatherClient:create
   - --talk-name=org.kde.StatusNotifierWatcher
   - --env=LD_LIBRARY_PATH=/app/lib
+  - --env=WEBKIT_DISABLE_DMABUF_RENDERER=1
 modules:
   - name: leather-client
     buildsystem: simple
@@ -33,4 +34,4 @@ modules:
         sha256: f0fe0b063cee3c0604747d5d731357f6cc2e990487dded56a306adf8b10bd3bc
       - type: file
         url: https://github.com/Leather-Client/version/releases/download/v1.1.2/net.leatherclient.LeatherClient.metainfo.xml
-        sha256: 251e9ebf5b2b7374dbce873293a2d6c78f6b935d1dfd05797434646e07d12989
+        sha256: 958b68c5cf39c39ffa183663c7b7d1a61463124448a401543fdc7687db2a3be2
