@@ -27,11 +27,11 @@ modules:
       - install -Dm644 net.leatherclient.LeatherClient.metainfo.xml /app/share/metainfo/net.leatherclient.LeatherClient.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/Leather-Client/version/releases/download/v1.1.4/leather-client-flatpak-1.1.4-x86_64.tar.gz
-        sha256: 7cdc9f2ac2c570ca609e490af45476c1c868db97bdee59e71c94ec32b8e630c0
+        url: https://github.com/Leather-Client/version/releases/download/v1.1.5/leather-client-flatpak-1.1.5-x86_64.tar.gz
+        sha256: 71ce0f2ec35cdd335638fc72bcfcb4de374bc65c92331bf48c4c245655a36d20
       - type: file
-        url: https://github.com/Leather-Client/version/releases/download/v1.1.4/net.leatherclient.LeatherClient.desktop
+        url: https://github.com/Leather-Client/version/releases/download/v1.1.5/net.leatherclient.LeatherClient.desktop
         sha256: f0fe0b063cee3c0604747d5d731357f6cc2e990487dded56a306adf8b10bd3bc
       - type: file
-        url: https://github.com/Leather-Client/version/releases/download/v1.1.4/net.leatherclient.LeatherClient.metainfo.xml
+        url: https://github.com/Leather-Client/version/releases/download/v1.1.5/net.leatherclient.LeatherClient.metainfo.xml
         sha256: 958b68c5cf39c39ffa183663c7b7d1a61463124448a401543fdc7687db2a3be2
